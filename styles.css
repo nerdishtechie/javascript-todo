@@ -1,0 +1,32 @@
+.container{
+    background-color: aqua;
+    text-align: center;
+    box-sizing: border-box;
+    border: solid 1px;
+    width: 300px;
+    margin: 0 200px 0 500px;
+    padding-bottom: 10px;
+}
+#taskList{
+    background-color:chartreuse;
+    margin: 10px 550px 10px 500px;
+    
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        background-color: aqua;
+        text-align: center;
+        box-sizing: border-box;
+        border: solid 1px;
+        width: 300px;
+        /* margin: 0 200px 0 500px; */
+        padding-bottom: 10px;
+    }
+    #taskList{
+        background-color:chartreuse;
+        /* margin: 10px 550px 10px 500px; */
+        
+    }
+    
+  }
+  
